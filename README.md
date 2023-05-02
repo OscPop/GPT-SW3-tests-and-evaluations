@@ -8,7 +8,7 @@ The models are hosted on HuggingFace and can be found on AI Sweden's HF page: ht
 To get access to AI Sweden's models, you will need to fill out a form on their website.
 
 # GPT-4 performance
-![Alt text](images/gpt3_fraga_valross.png?raw=true "Title")
+![Alt text](images/gpt4_fraga_valross.png?raw=true "Title")
 
 
 # More
