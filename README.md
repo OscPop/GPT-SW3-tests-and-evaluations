@@ -4,7 +4,27 @@ Trying out the latest instruction tuned GPT models from AI Sweden. The main inte
 <br><br>
 The models are hosted on HuggingFace and can be found on AI Sweden's HF page: https://huggingface.co/AI-Sweden-Models
 
-## Access to the models
+```
+prompt = "Hur stor kan en valross bli och varför?"
+
+input_ids = tokenizer(prompt, return_tensors="pt")["input_ids"].to(device)
+
+generated_token_ids = model.generate(
+    inputs=input_ids,
+    max_new_tokens=1000,
+    do_sample=False,
+    temperature=0.1,
+    top_p=1,
+    repetition_penalty=1.5,
+    encoder_repetition_penalty=1.5,
+    num_beams=5,
+    top_k=50,
+)[0]
+
+generated_text = tokenizer.decode(generated_token_ids)  
+```
+
+## Access to the AI Sweden models
 To get access to AI Sweden's models, you will need to fill out a form on their website.
 
 # GPT-4
