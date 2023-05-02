@@ -4,6 +4,14 @@ Trying out the latest instruction tuned GPT models from AI Sweden. The main inte
 <br><br>
 The models are hosted on HuggingFace and can be found on AI Sweden's HF page: https://huggingface.co/AI-Sweden-Models
 
+## Access to the AI Sweden models
+To get access to AI Sweden's models, you will need to fill out a form on their website.
+
+
+# How to use GPT-SW3
+Detailed instructions on how to use the models hosted on HuggingFace can be found on the AI Sweden model card pages, e.g.: https://huggingface.co/AI-Sweden-Models/gpt-sw3-1.3b-instruct 
+
+## Examples of GPT-SW3
 ```python
 prompt = "Hur stor kan en valross bli och varför?"
 
@@ -24,8 +32,7 @@ generated_token_ids = model.generate(
 generated_text = tokenizer.decode(generated_token_ids)  
 ```
 
-## Access to the AI Sweden models
-To get access to AI Sweden's models, you will need to fill out a form on their website.
+
 
 # GPT-4
 There are currently two ways of getting access to GPT-4. Either through becoming a GPT+ subscriber to OpenAI or by paying for OpenAI API usage. The easiest to use is the GPT+ subscription which let's you interact directly with GPT-4 in the browser.
