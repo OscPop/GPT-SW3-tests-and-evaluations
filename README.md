@@ -8,6 +8,10 @@ The models are hosted on HuggingFace and can be found on AI Sweden's HF page: ht
 To get access to AI Sweden's models, you will need to fill out a form on their website.
 
 
+# Installation
+You will need torch and transformers installed to run the code. A detailed instruction is available at HuggingFace: https://huggingface.co/docs/transformers/installation
+
+
 # How to use GPT-SW3
 Detailed instructions on how to use the models hosted on HuggingFace can be found on the AI Sweden model card pages, e.g.: https://huggingface.co/AI-Sweden-Models/gpt-sw3-1.3b-instruct 
 
