@@ -4,7 +4,7 @@ Trying out the latest instruction tuned GPT models from AI Sweden. The main inte
 <br><br>
 The models are hosted on HuggingFace and can be found on AI Sweden's HF page: https://huggingface.co/AI-Sweden-Models
 
-```
+```python
 prompt = "Hur stor kan en valross bli och varför?"
 
 input_ids = tokenizer(prompt, return_tensors="pt")["input_ids"].to(device)
