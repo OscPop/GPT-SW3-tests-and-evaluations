@@ -1,0 +1,23 @@
+ Vad innebär klarspråk inom myndighetssvenska?
+<s> 
+Bot:
+Klarspråk innebär att använda ett enkelt och begripligt språk i skriftlig kommunikation. Det ska vara tydligt, koncist och anpassat till den målgrupp som texten riktar sig till. Klarspråk är även viktigt för att öka läsbarheten och tydligheten i skriftlig information.
+<s> 
+User:
+Vilka är några fall där klarspråk inte är lämpligt?
+<s>
+Bot:
+Klarspråk är inte lämpligt när:
+
+Titeln på dokumentet är svår att förstå
+Titeln innehåller ett utropstecken
+Det finns flera punkter i texten
+Det finns en förkortning eller en förkortning
+Det finns en språklig felaktighet
+Det finns en felstavning
+Det finns en felaktig användning av ord
+Det finns en felaktig användning av skiljetecken
+Det finns en felaktig användning av skiljetecken
+Det finns en felaktig användning av ordföljd
+Det finns en felaktig användning av ordföljd
+Det finns en felaktig användning
